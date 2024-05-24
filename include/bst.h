@@ -58,5 +58,4 @@ void BST<T>::displayInOrder(Node<T>* node) const {
     displayInOrder(node->right);
   }
 }
-
 #endif  // INCLUDE_BST_H_
