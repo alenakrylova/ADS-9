@@ -72,4 +72,5 @@ template <typename T>
 int BST<T>::search(const T& temp) const {
     return searchTree(root, temp);
 }
+
 #endif  // INCLUDE_BST_H_
